@@ -9,6 +9,6 @@ public class HomeController {
     @GetMapping("/")
     public String home() {
         // Serve the index.html page from the static folder
-        return "index";
+        return "index.html";
     }
 }
